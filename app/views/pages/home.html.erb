@@ -1,2 +1,76 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+  <header class="hero">
+    <div class="container spacing">
+    <!-- The video -->
+    <%# <%= video_tag "videobannerheader.mp4", autoplay: :autoplay, loop: :loop %>
+    <%= image_tag "gifheader.gif"%>
+      <h1 class="primary-title">Professional <br> Web-Developement <br> with Kung Fu Skills</h1>
+      <p>Web Development Freelancer <em>- Jan Peter -</em> Shaolin Coach </p>
+      <a href="#" class="btn">See what I have build</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="featured">
+      <div class="container">
+        <h2 class="section-title">My Services</h2>
+        <div class="split">
+          <a href="#" class="featured__item">
+            <h3><b>Basic</b></h3>
+            <%= image_tag "divipackage.png" %>
+            <p class="featured__details"><span class="price">Offer on Request</span>Wordpress + Divi Design Package</p>
+          </a>
+          <a href="#" class="featured__item">
+            <h3><b>Classic</b></h3>
+            <%= image_tag "programmproject.png" %>
+            <p class="featured__details"><span class="price">Offer on Request</span>Full programmed Website Project</p>
+          </a>
+          <a href="#" class="featured__item">
+            <h3><b>Premium</b></h3>
+            <%= image_tag "fullpackage.png" %>
+            <p class="featured__details"><span class="price">Offer on Request</span>Full Responsive Website Package</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="our-products">
+      <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+          <div class="split">
+            <div class="our-products__items text-center">
+              <%= image_tag "Productone.png" %>
+              <h3><b>Tester</b></h3>
+              <p class="product__description">a platform for startup Developers to easily start their ideas into  a project App.</p>
+              <a href="https://www.startup-testr.me/" target="_blank" class="btn">Preview</a>
+            </div>
+          
+              <div class="our-products__items text-center">
+                <%= image_tag "product3.png" %>
+                <h3><b>Yacht Me</b></h3>
+                <p>a platform where you can rent swimming flat cabines from Yachts in your neighboorhood.</p>
+                <a href="https://yacht-me.herokuapp.com/" target="_blank" class="btn">Preview</a>
+              </div>
+          
+              <div class="our-products__items text-center">
+                <%= image_tag "Producttwo.png" %>
+                <h3><b>Masteryourownway</b></h3>
+                <p class="product__description">a Martial Arts Social Media Streaming platform to learn, teach and track your own training worldwide</p>
+                <a href="https://masteryourownway.club/" target="_blank" class="btn">Preview</a>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <div id="footer">
+    <p>Made with ❤️ and 💎:Ruby: on Rails 👨‍💻 by Jan Peter</p>
+    <ul class="list-inline">
+    <li class="list-inline-item"><a href="https://github.com/JanPeterLeWebdeveloper" target="_blank"><i class="fab fa-github"></i></a></li>
+    <li class="list-inline-item"><a href="https://www.instagram.com/masteryourownway/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jan-peter-webdeveloper/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+    </div>
+
+  </main>
+
