@@ -1,11 +1,12 @@
   <header class="hero">
     <div class="container spacing">
-    <!-- The video -->
-    <%# <%= video_tag "videobannerheader.mp4", autoplay: :autoplay, loop: :loop %>
-    <%= image_tag "gifheader.gif"%>
-      <h1 class="primary-title">Professional <br> Web-Developement <br> with Kung Fu Skills</h1>
+    
+    <%#= image_tag "gifheader.gif"%>
+    <%= image_tag('gifheader.gif') %>
+    <%# video_tag("videobannerheader.mp4", controls: true, preload: 'none') %>
+      <h1 class="primary-title">Professional <br> Web-Development <br> Freelancer </h1>
       <p>Web Development Freelancer <em>- Jan Peter -</em> Shaolin Coach </p>
-      <a href="#" class="btn">See what I have build</a>
+      <a href="#bottom" class="btn">See what I have build</a>
     </div>
   </header>
 
@@ -30,6 +31,7 @@
             <%= image_tag "fullpackage.png" %>
             <p class="featured__details"><span class="price">Offer on Request</span>Full Responsive Website Package</p>
           </a>
+          <a href="#" class="btn">More Information</a>
         </div>
       </div>
     </section>
@@ -58,9 +60,20 @@
                 <h3><b>Masteryourownway</b></h3>
                 <p class="product__description">a Martial Arts Social Media Streaming platform to learn, teach and track your own training worldwide</p>
                 <a href="https://masteryourownway.club/" target="_blank" class="btn">Preview</a>
+                <a id=bottom href=""></a>
               </div>
+              <a href="#" class="btn"><em>Discover More</em></a>
           </div>
       </div>
+    </section>
+
+    <section class ="about-me">
+    <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <%= image_tag "mg0179-removebg-preview.png" %>
+
+    </div>
+    
     </section>
 
     <div id="footer">
